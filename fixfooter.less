@@ -1,0 +1,16 @@
+.fixfooter(@height;@name){
+	html{
+		position: relative;
+		min-height: 100%;
+			body{
+			margin: 0px 0px 100px;
+			.@{name}{
+				position: absolute;
+				bottom:0px;
+				left: 0px;
+				width: 100%;
+				height: @height;
+				}
+			}
+	}
+}
